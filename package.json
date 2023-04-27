@@ -7,9 +7,7 @@
     "type": "git",
     "url": "https://github.com/kyrolabs/skeleton-theme.git"
   },
-  "scripts": {
-    "publish": "pnpm publish"
-  },
+  "scripts": {},
   "private": false,
   "keywords": [],
   "author": "Stephane Busso <stephane.busso@gmail.com>",
