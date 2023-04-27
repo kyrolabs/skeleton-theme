@@ -10,6 +10,7 @@
   "scripts": {
     "publish": "pnpm publish"
   },
+  "private": false,
   "keywords": [],
   "author": "Stephane Busso <stephane.busso@gmail.com>",
   "license": "MIT",
