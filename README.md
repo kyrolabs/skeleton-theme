@@ -1,3 +1,3 @@
-# Skeleton React
+# Skeleton Theme
 
-A port of [Skeleton](https://www.skeleton.dev/) Theme for Svelte to React. Embed Tailwind.
+A port of [Skeleton](https://www.skeleton.dev/) Theme for Svelte to all frameworks using Tailwind

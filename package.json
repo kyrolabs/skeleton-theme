@@ -1,11 +1,11 @@
 {
-  "name": "skeleton-react",
+  "name": "skeleton-theme",
   "version": "1.0.0",
-  "description": "port of skeleton theme to react",
+  "description": "Port of skeleton theme to all frameworks",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kyrolabs/skeleton-react.git"
+    "url": "https://github.com/kyrolabs/skeleton-theme.git"
   },
   "scripts": {
     "publish": "pnpm publish"
