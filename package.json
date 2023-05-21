@@ -1,6 +1,6 @@
 {
   "name": "@kyrolabs/skeleton-theme",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Port of skeleton theme to all frameworks",
   "main": "index.js",
   "repository": {

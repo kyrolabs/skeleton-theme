@@ -26,7 +26,7 @@
     /* Background */
     @apply bg-surface-200-700-token focus:brightness-105 hover:brightness-105;
 
-    @apply text-surface-600-300-token focus:text-surface-600-300-token;
+    @apply text-primary-600-300-token focus:text-primary-600-300-token;
     /* Border */
     @apply ring-0 border-token border-surface-200 focus:border-primary-500;
     /* Transition */
@@ -51,11 +51,11 @@
     @apply !border-l border-surface-400-500-token focus:border-surface-400-500-token;
   }
   .input-group-shim {
-    @apply bg-surface-400/10 text-surface-600-300-token;
+    @apply bg-surface-400/10 text-primary-600-300-token;
   }
 
   /* Apply the input styles by default, but exclude if wrapped in `.input-group` */
-  input:not([type='checkbox']):not([type='radio']):not([type='color']):not(
+  input:not([type="checkbox"]):not([type="radio"]):not([type="color"]):not(
       .unstyled
     ):is(:not(.input-group *)),
   select[size]:not(.unstyled):is(:not(.input-group *)),
@@ -121,37 +121,37 @@
   }
 
   /* File Input */
-  [type='file']:not(.unstyled):is(:not(.input-group *)) {
+  [type="file"]:not(.unstyled):is(:not(.input-group *)) {
     @apply p-1;
   }
 
   /* Checkbox & Radio */
-  [type='checkbox']:not(.unstyled):is(:not(.input-group *)),
-  [type='radio']:not(.unstyled):is(:not(.input-group *)) {
+  [type="checkbox"]:not(.unstyled):is(:not(.input-group *)),
+  [type="radio"]:not(.unstyled):is(:not(.input-group *)) {
     @apply rounded text-secondary-600 focus:ring-secondary-500 w-5 h-5 cursor-pointer;
   }
-  [type='radio']:not(.unstyled):is(:not(.input-group *)) {
+  [type="radio"]:not(.unstyled):is(:not(.input-group *)) {
     @apply rounded-token;
   }
 
   /* Color Picker */
   /* https://stackoverflow.com/questions/11167281/webkit-css-to-control-the-box-around-the-color-in-an-inputtype-color */
-  input[type='color']:not(.unstyled):is(:not(.input-group *)) {
+  input[type="color"]:not(.unstyled):is(:not(.input-group *)) {
     @apply border-none w-10 h-10 overflow-hidden rounded-token cursor-pointer;
     /* WebKit Only */
     -webkit-appearance: none;
   }
-  input[type='color']:not(.unstyled):is(
+  input[type="color"]:not(.unstyled):is(
       :not(.input-group *)
     )::-webkit-color-swatch-wrapper {
     @apply p-0;
   }
-  input[type='color']:not(.unstyled):is(
+  input[type="color"]:not(.unstyled):is(
       :not(.input-group *)
     )::-webkit-color-swatch {
     @apply border-none hover:brightness-110;
   }
-  input[type='color']:not(.unstyled):is(
+  input[type="color"]:not(.unstyled):is(
       :not(.input-group *)
     )::-moz-color-swatch {
     @apply border-none;
@@ -201,7 +201,7 @@
     @apply bg-surface-900 rounded-token;
   }
   progress:indeterminate::after {
-    content: '';
+    content: "";
     @apply inset-y-0 -left-[40%] w-1/3 absolute rounded-token;
     animation: progress-loading 5s infinite ease-in-out;
   }
@@ -214,19 +214,19 @@
   /* === Placeholder === */
 
   ::-moz-placeholder {
-    @apply text-surface-500-400-token;
+    @apply text-primary-500-400-token;
   }
   :-ms-input-placeholder {
-    @apply text-surface-500-400-token;
+    @apply text-primary-500-400-token;
   }
   ::placeholder {
-    @apply text-surface-500-400-token;
+    @apply text-primary-500-400-token;
   }
 
   /* === Accent Color === */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color */
 
-  [type='range']:not(.range-input) {
+  [type="range"]:not(.range-input) {
     @apply w-full accent-secondary-500;
   }
 
